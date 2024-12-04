@@ -1,0 +1,121 @@
+.navigation-wrapper {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    /* Flexbox container */
+    display: flex;
+    align-items: center;
+    padding: 15px 0px 15px 30px;
+}
+
+/* Left column */
+.navigation-wrapper > .left-column {
+    width: 10%;
+}
+.navigation-wrapper > .left-column > .logo img {
+    width: 100%;
+}
+
+/* Center column */
+
+.navigation-wrapper > .center-column {
+    width: 50%;
+    padding-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* grid-gap: 42px; */
+}
+
+.navigation-wrapper > .center-column > .explore {
+    margin-bottom: -2%;
+
+}
+
+.navigation-wrapper > .center-column > .links {
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .center-column > .links > .links-wrapper {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation-wrapper > .center-column > .links > .links-wrapper > .nav-link a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    margin-right: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: -1px;
+}
+
+.navigation-wrapper > .center-column > .links > .spark {
+    width: 25%;
+    color: #cbcbcb;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.navigation-wrapper > .center-column > .links > .spark > .spark-text {
+    font-size: 1.15em;
+    margin: 15%;
+}
+
+.navigation-wrapper > .center-column > .links > .spark > .spark-icon {
+    font-size: 0.8em;
+}
+
+/* Right column */
+
+.navigation-wrapper > .right-column {
+    width: 40%;
+    justify-content: right;
+    float: right;
+}
+
+.navigation-wrapper > .right-column > .right-column-btns {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-column > .right-column-btns > .button button {
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: lightslategray;
+    color: white;
+    border-radius: 5px;
+}
+
+.navigation-wrapper > .right-column > .right-column-btns > .button {
+    padding-right: 5%;
+}
+
+
+.btn-text {
+    margin-right: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.create-icon {
+    color: lightgreen;
+}
+
+#serching-icon {
+    font-size: 1.8em;
+    color: lightgrey;
+}

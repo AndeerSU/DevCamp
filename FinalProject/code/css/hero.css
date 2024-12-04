@@ -1,0 +1,113 @@
+.hero {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, slategray, black);
+    justify-content: start;
+    margin-top: -5%;
+}
+
+.hero-section {
+    width: 100%;
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero-section > .hero-left-column {
+    width: 55%;
+    margin: 3%;
+    display: grid;
+    grid-column: 1fr;
+    /* align-items: initial; */
+}
+
+.hero-section > .hero-left-column > .top-text > .title > .title-text {
+    font-size: 2.2em;
+    margin-right: 10%;
+    padding-bottom: 30px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.hero-section > .hero-left-column > .top-text > .desc {
+    font-size: 1.8em;
+    color: lightgrey;
+    padding-right: 15%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.hero-section > .hero-left-column > .bottom-btns {
+    display: flex;
+    align-items: initial;
+}
+
+.hero-section > .hero-left-column > .bottom-btns > .left-btn {
+    padding-right: 2%;
+}
+
+.hero-section > .hero-left-column > .bottom-btns > .left-btn button {
+    padding: 10px 20px;
+    font-size: 1.8em;
+    background-color: lightgreen;
+    border: none;
+    border-radius: 3px;
+}
+
+.hero-section > .hero-left-column > .bottom-btns > .right-btn button{
+    padding: 10px 20px;
+    font-size: 1.8em;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+}
+
+.hero-section > .hero-right-column {
+    width: 45%;
+    margin-top: 1.5%;
+    display: grid;
+    grid-column: 1fr;
+    align-items: center;
+    float: right;
+}
+
+.hero-section > .hero-right-column > .above-link {
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: -3%;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.hero-section > .hero-right-column > .above-link h5 {
+    color: white;
+    margin-right: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1em;
+}
+
+.hero-section > .hero-right-column > .above-link a {
+    color: rgb(157, 185, 236);
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.hero-section > .hero-right-column > .image img {
+    width: 88%;
+}

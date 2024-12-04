@@ -1,0 +1,25 @@
+.footer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer > .footer-items {
+    width: 25%;
+    padding: 15px 0px;
+    border: 0.2px solid white;
+    color: white;
+    background-color: darkslategrey;
+    display: grid;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.2em;
+}
+
+.footer > .footer-items > .footer-items-text:before {
+    content: 'CodePen for ';
+}
