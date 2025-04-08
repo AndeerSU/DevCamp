@@ -5,7 +5,7 @@ bool = True
 list = ['Harry', 'Asta', 'Dan']
 
 ## Ex. 2
-string_letters = string[:2]
+string_letters = string[:3]
 print(string_letters)
 
 ## Ex. 3
@@ -26,7 +26,7 @@ names_list = names.split(', ')
 print(names_list)
 
 ## Ex. 7
-string_upper = string[:2].upper()
+string_upper = string[:3].upper()
 string_upper_conbined = string_upper + string[3:]
 print( string_upper_conbined)
 
