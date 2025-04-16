@@ -1,3 +1,4 @@
+from decimal import Decimal
 import math
 
 ## Ex. 1
@@ -12,7 +13,7 @@ dict = {
     }
 
 ## Ex. 2
-round_float = round(float, 1)
+round_float = math.ceil(float)
 print(round_float)
 
 ## Ex. 3
