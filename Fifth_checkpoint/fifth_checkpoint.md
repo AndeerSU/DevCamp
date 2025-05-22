@@ -42,17 +42,17 @@ Existen varios tipos de argumentos:
 
 **Argumentos por defecto:** Son valores preestablecidos para los parámetros en la definición de la función. Si no proporcionas un valor para ese parámetro al llamar a la función, se usa el valor por defecto.
 
-***args (argumentos variables posicionales):** Permite que una función acepte un número variable de argumentos posicionales. Estos se agrupan en una tupla dentro de la función.
+**`*args` (argumentos variables posicionales):** Permite que una función acepte un número variable de argumentos posicionales. Estos se agrupan en una tupla dentro de la función.
 
-****kwargs (argumentos variables de palabra clave):** Permite que una función acepte un número variable de argumentos de palabra clave. Estos se agrupan en un diccionario dentro de la función.
+**`**kwargs` (argumentos variables de palabra clave):** Permite que una función acepte un número variable de argumentos de palabra clave. Estos se agrupan en un diccionario dentro de la función.
 
 ---
 
 ## ¿Qué es una función Lambda en Python?
 
-Una **función Lambda** es una pequeña función anónima (es decir, sin nombre) que se define en una sola línea y se construyen usando la palabra clave lambda.
+Una **función Lambda** es una pequeña función anónima (es decir, sin nombre) que se define en una sola línea y se construyen usando la palabra clave `lambda`.
 
-Las funciones lambda pueden tomar cualquier número de argumentos, pero solo pueden tener una expresión. El resultado de esta expresión es lo que la función devuelve. Son muy útiles para crear funciones simples y rápidas que a menudo se usan como argumentos para otras funciones (como map, filter, sorted) o en situaciones donde una definición de función completa no es necesaria.
+Las funciones lambda pueden tomar cualquier número de argumentos, pero solo pueden tener una expresión. El resultado de esta expresión es lo que la función devuelve. Son muy útiles para crear funciones simples y rápidas que a menudo se usan como argumentos para otras funciones (como `map`, `filter`, `sorted`) o en situaciones donde una definición de función completa no es necesaria.
 
 ---
 
