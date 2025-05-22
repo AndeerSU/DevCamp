@@ -58,6 +58,6 @@ Las funciones lambda pueden tomar cualquier número de argumentos, pero solo pue
 
 ## ¿Qué es un paquete pip?
 
-**pip** (que significa "pip installs packages" o "preferred installer program") es el gestor de paquetes estándar para Python. Es una herramienta de línea de comandos que te permite instalar, actualizar y desinstalar paquetes de software escritos en Python que se encuentran en el Python Package Index (PyPI). PyPI es un enorme repositorio de paquetes de terceros desarrollados por la comunidad de Python.
+**pip** (que significa "pip installs packages" o "preferred installer program") es el **gestor de paquetes** estándar para Python. Es una herramienta de línea de comandos que te permite instalar, actualizar y desinstalar paquetes de software escritos en Python que se encuentran en el Python Package Index (PyPI). PyPI es un enorme repositorio de paquetes de terceros desarrollados por la comunidad de Python.
 
 Pip simplifica enormemente la gestión de las dependencias de tus proyectos de Python, permitiéndote usar bibliotecas y módulos creados por otros desarrolladores para ampliar la funcionalidad de tus propios programas sin tener que escribir todo desde cero.
