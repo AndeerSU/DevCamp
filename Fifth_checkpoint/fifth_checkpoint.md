@@ -37,8 +37,12 @@ En Python, un argumento es un valor que se pasa a una función (o método) cuand
 Existen varios tipos de argumentos:
 
 **Argumentos posicionales:** Se pasan en el orden en que se definen en la función.
+
 **Argumentos de palabra clave (keyword arguments):** Se pasan especificando el nombre del parámetro al que se asigna el valor (por ejemplo, nombre="Juan"). Esto permite pasar argumentos en cualquier orden y mejora la legibilidad del código.
+
 **Argumentos por defecto:** Son valores preestablecidos para los parámetros en la definición de la función. Si no proporcionas un valor para ese parámetro al llamar a la función, se usa el valor por defecto.
+
 ***args (argumentos variables posicionales):** Permite que una función acepte un número variable de argumentos posicionales. Estos se agrupan en una tupla dentro de la función.
-** **kwargs (argumentos variables de palabra clave):** Permite que una función acepte un número variable de argumentos de palabra clave. Estos se agrupan en un diccionario dentro de la función.
+
+****kwargs (argumentos variables de palabra clave):** Permite que una función acepte un número variable de argumentos de palabra clave. Estos se agrupan en un diccionario dentro de la función.
 
