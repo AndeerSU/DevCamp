@@ -98,10 +98,10 @@ frutas = ["manzana", "banana", "cereza"]
 for fruta in frutas:
     print(f"Me gusta comer {fruta}.")
 
-# Resultado:
-# Me gusta comer manzana.
-# Me gusta comer banana.
-# Me gusta comer cereza.
+### Resultado:
+### Me gusta comer manzana.
+### Me gusta comer banana.
+### Me gusta comer cereza.
 
 ---
 
