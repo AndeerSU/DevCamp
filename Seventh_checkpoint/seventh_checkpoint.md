@@ -3,7 +3,7 @@
 
 ## ¿Qué diferencia a JavaScript de cualquier otro lenguaje de programación?
 
-JavaScript (JS) es un lenguaje de programación de alto nivel que, a primera vista, puede parecer similar a otros lenguajes. Sin embargo, tiene **características únicas** que lo distinguen y lo hacen fundamental en el desarrollo web moderno.
+JavaScript (JS) es un lenguaje de programación ligero y dinámico que, a primera vista, puede parecer similar a otros lenguajes. Sin embargo, tiene **características únicas** que lo distinguen y lo hacen fundamental en el desarrollo web moderno.
 
 ### 1. Es el lenguaje del navegador web (Frontend)
 
